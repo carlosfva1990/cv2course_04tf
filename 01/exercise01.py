@@ -8,7 +8,10 @@ def run():
 
     with tf.Session() as sess:
         # TODO: Feed the x tensor 123
-        output = sess.run(x)
+        output = sess.run(x, {x: 123})
 
     return output
+    
+    
+print(run())
 
