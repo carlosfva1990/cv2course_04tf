@@ -39,7 +39,7 @@ with tf.Session() as session:
 
     # Rate at which the weights are changed
     # You'll learn more about this in future lessons.
-    learning_rate = 0.08
+    learning_rate = 0.9
 
     # Gradient Descent
     # This is the method used to train the model
